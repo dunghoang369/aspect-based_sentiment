@@ -15,8 +15,8 @@ Our goal is to extract sentiment triplets of the format `(aspect target, opinion
 
 ### Installation
 
-- Tested on Python 3.8 (recommended to use a virtual environment such as [Conda](https://docs.conda.io/en/latest/miniconda.html))
-- Install data and requirements: `bash setup.sh`
+- Tested on Python 3.8.6.
+- Install requirements: `pip install -r requirements.txt`
 - Training config: [training_config/config.jsonnet](training_config/config.jsonnet)
 - Modeling code: [span_model/models/span_model.py](span_model/models/span_model.py)
 
