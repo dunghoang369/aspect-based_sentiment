@@ -1,0 +1,15 @@
+Cython
+PYEVALB
+botocore
+fire
+nltk
+numpy
+pandas
+pydantic
+scikit-learn
+transformers
+boto3
+allennlp-models
+allennlp
+torch
+protobuf
