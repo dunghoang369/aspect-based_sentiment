@@ -19,7 +19,11 @@ Our goal is to extract sentiment triplets of the format `(aspect target, opinion
 - Install requirements: `pip install -r requirements.txt`
 - Training config: [training_config/config.jsonnet](training_config/config.jsonnet)
 - Modeling code: [span_model/models/span_model.py](span_model/models/span_model.py)
-
+- For convenience, using available docker image to run the repo:
+  - `git pull dunghoang99/span-aste:latest`
+  - `docker run -it --name dunghc-test-env -v {path to aspect based sentiment folder}:/home/span_aste --memory=50g --cpus="12" --gpus=all --shm-size=50g dunghoang99/span-aste:latest bash`
+  - For training: `python train.py`
+  - For predicting: `python predict.py`
 ### Data Format
 
 Our span-based model uses data files where the format for each line contains one input sentence and a list of output triplets.
