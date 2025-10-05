@@ -1,6 +1,6 @@
 {
   "data_loader": {
-    "batch_size": 16
+    "batch_size": 1
   },
   "dataset_reader": {
     "max_span_width": 15,
